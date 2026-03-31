@@ -1,3 +1,7 @@
+import process from 'process';
+import { Buffer } from 'buffer';
+if (!window.process) window.process = process;
+if (!window.Buffer) window.Buffer = Buffer;
 import { categories } from './config/tools.js';
 import { dom, switchView, hideAlert } from './ui.js';
 import { setupToolInterface } from './handlers/toolSelectionHandler.js';

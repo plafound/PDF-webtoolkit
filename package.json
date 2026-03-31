@@ -35,7 +35,6 @@
     "ts-migrate": "^0.0.0",
     "typescript": "~5.9.3",
     "vite": "^7.1.11",
-    "vite-plugin-node-polyfills": "^0.2.0",
     "vitest": "^3.2.4"
   },
   "dependencies": {
@@ -49,6 +48,8 @@
     "@neslinesli93/qpdf-wasm": "^0.3.0",
     "@tailwindcss/vite": "^4.1.15",
     "blob-stream": "^0.1.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
     "cropperjs": "^1.6.1",
     "heic2any": "^0.0.4",
     "html2canvas": "^1.4.1",
@@ -59,11 +60,14 @@
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^5.4.296",
     "pdfkit": "^0.17.2",
+    "process": "^0.11.10",
     "sortablejs": "^1.15.6",
+    "stream-browserify": "^3.0.0",
     "tailwindcss": "^4.1.14",
     "terser": "^5.44.0",
     "tesseract.js": "^6.0.1",
     "tiff": "^7.1.2",
-    "utif": "^3.1.0"
+    "utif": "^3.1.0",
+    "util": "^0.12.5"
   }
 }
